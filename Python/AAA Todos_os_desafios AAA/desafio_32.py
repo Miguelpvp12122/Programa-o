@@ -1,0 +1,1 @@
+#esse aqui é de um assunto de matematica do 9 ano entao nao dar
