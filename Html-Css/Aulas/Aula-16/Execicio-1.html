@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens adaptaveis</h1>
+    <p>Tente usar um dispositivo movel ou apenas diminua a janela do site</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/Imagem-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/Imagem-M.png" type="image/png">
+        <img src="Imagens/Imagem-G.png" alt="Imagem-G">
+    </picture>
+</body>
+</html>
